@@ -94,10 +94,10 @@ while not turn_machine_off:
 
     # 3. Print report of current resource values
     elif coffee_choice == "report":
-        print(f"Water: {current_water}")
-        print(f"Milk: {current_milk}")
-        print(f"Coffee: {current_coffee}")
-        print(f"Money: {money}")
+        print(f"Water: {current_water}ml")
+        print(f"Milk: {current_milk}ml")
+        print(f"Coffee: {current_coffee}g")
+        print(f"Money: ${money}")
 
     # 4. Check if resources are sufficient when user chooses a drink.
     elif coffee_choice == "espresso" or coffee_choice == "latte" or coffee_choice == "cappuccino":
