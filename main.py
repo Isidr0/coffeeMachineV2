@@ -30,7 +30,7 @@ resources = {
     "coffee": 100,
 }
 
-#Test
+#Test2
 
 def check_resources(c_choice):
     print(MENU[c_choice])
