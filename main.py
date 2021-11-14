@@ -32,6 +32,8 @@ resources = {
     "coffee": 100,
 }
 
+# print('Hello')
+
 choice = input("What would you like? (espresso/latte/cappuccino): ")
 drink = MENU[choice]
 
